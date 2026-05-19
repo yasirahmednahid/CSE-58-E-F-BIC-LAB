@@ -1,0 +1,28 @@
+color = input("Enter your favorite color: ")
+
+print("Your favorite color is", color + "!")
+movie = "Inception"
+year = 2010
+
+print(f"The movie {movie} was released in {year}.")
+num1 = 8
+num2 = 7
+
+product = num1 * num2
+
+print(product > 50)
+animals = ["Cat", "Dog", "Tiger"]
+
+animals.append("Elephant")
+
+animals[1] = "Dragon"
+
+print(animals)
+car = {
+    "brand": "Toyota",
+    "model": "Corolla"
+}
+
+car["year"] = 2022
+
+print(car)

@@ -5,6 +5,9 @@ compilement = {"A":"T",
                "C":"G",
                "G":"C"
                }
-               reverse_complement = ""
-               for i in range(len(pattern) -1, -1, -1):
-                reverse_complement += complement
+reverse_complement = ""
+for i in range(len(pattern) -1, -1, -1):
+    reverse_complement += compilement[pattern[i]]
+
+print("Original DNA:", pattern)
+print("Reverse Complement:", reverse_complement)
